@@ -1,6 +1,6 @@
 # Yoda AI: Your Wise Companion
 
-<img src="./public/showcase.png" width="100%" />
+<img src="./public/showcase.png" height="480px" />
 
 Welcome to Yoda AI, your ultimate AI companion that runs right in your browser! Yoda is designed to be your go-to solution for a wide range of tasks, from answering questions and providing insights to offering assistance and entertainment. In this document, we'll introduce you to the exciting world of Yoda AI and guide you through getting started.
 
