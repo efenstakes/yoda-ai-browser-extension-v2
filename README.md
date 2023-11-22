@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Yoda AI: Your Wise Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./public/showcase.png" width="100%" />
 
-## Available Scripts
+Welcome to Yoda AI, your ultimate AI companion that runs right in your browser! Yoda is designed to be your go-to solution for a wide range of tasks, from answering questions and providing insights to offering assistance and entertainment. In this document, we'll introduce you to the exciting world of Yoda AI and guide you through getting started.
 
-In the project directory, you can run:
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Yoda AI is a cutting-edge artificial intelligence designed to enhance your daily life. It combines natural language understanding, machine learning, and a vast knowledge base to assist you with a wide range of tasks. Whether you need answers to questions, want to engage in meaningful conversations, or simply seek entertainment, Yoda AI has you covered.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Conversational AI: Hold engaging conversations with Yoda AI, just like chatting with a friend.
 
-### `npm run build`
+2. Knowledge Base: Access a wealth of information, facts, and insights across various domains.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Personal Assistant: Set reminders, create to-do lists, and get weather updates.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Entertainment: Enjoy jokes, riddles, and even some wisdom from the wise Yoda himself.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Customization: Tailor Yoda AI to your preferences and needs.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Tech Used
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. React: Yoda AI's browser extension is built with React. React is a leading web development framework that allows websites and browser extensions to be built with ease while utilizing the component system. Find Here https://react.dev/.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Chrome Extension API: Chrome Extension API is a minimal API to build browser extensions for Chrome, Firefox, Brave and Microsoft Edge browsers. Find here https://developer.chrome.com/docs/extensions/reference/.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Running
+This extension has not yet been deployed to the browser extension stores. To run this extension, you need to clone the repo to your local environment. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+git clone https://github.com/efenstakes/yoda-ai-browser-extension-v2 ext
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Navigate to the folder.
+
+```sh
+cd ./ext
+```
+
+Install dependencies
+```sh
+npm i
+```
+
+Build the extension:
+```sh
+npm run build
+```
+
+Go to your favorite browser and load it. Enjoy.
+Happy building :(.
+
+
+## Extras
+I build a similar API to this in TypeScript, Swift & SwiftUI, Flutter, Golang and Node.js. You can find it here in my github.
+
+
+## Contact
+If you wish to contact me, use my email efenstakes101@gmail.com.
