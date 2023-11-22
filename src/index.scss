@@ -1,0 +1,46 @@
+
+// colors
+$PRIMARY_COLOR: orange;
+$SECONDARY_COLOR: tomato;
+
+$PROMPT_CARD_BG: #dad7d5;
+$PROMPT_REPLY_CARD_BG: #efe5da;
+
+$LIGHT_BLACK: rgb(75, 69, 69);
+
+
+// radius
+$CARD_BORDER_RADIUS: 10px;
+$CARD_BORDER_RADIUS_SM: 4px;
+
+
+/* resets */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+// mixins
