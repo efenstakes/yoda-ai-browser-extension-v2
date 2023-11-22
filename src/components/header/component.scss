@@ -1,0 +1,76 @@
+@import "../../index.scss";
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(
+        178deg,
+        $PRIMARY_COLOR,
+        $SECONDARY_COLOR
+    );
+    backdrop-filter: blur(10px);
+    opacity: .8;
+    color: white;
+    font-weight: 800;
+    
+    z-index: 10;
+}
+
+.header_title {
+    flex: 1;
+}
+
+.header_icon {
+    width: 40px;
+}
+
+
+.header_dialog_contact_ctas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+} 
+
+.header_dialog_contact_cta {
+    height: 40px;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: $PRIMARY_COLOR;
+    border: 2px solid $PRIMARY_COLOR;
+    border-radius: 50%;
+}
+
+
+/* for dialog only */
+
+#alert-dialog-slide-title {
+    font-weight: 800;
+}
+
+#alert-dialog-slide-contact-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#header_dialog_contact_bottom_ctas {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
