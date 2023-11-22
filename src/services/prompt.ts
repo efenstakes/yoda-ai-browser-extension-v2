@@ -1,6 +1,6 @@
 import IPromptResponse from "../models/prompt";
 
-const serverURL: string = 'http://localhost:9090/prompts' // 'https://xqwbyqql42.execute-api.us-west-1.amazonaws.com/prompts';
+const serverURL: string = 'https://xqwbyqql42.execute-api.us-west-1.amazonaws.com/prompts';
 
 
 // gets the reply for the given prompt from yoda ai
