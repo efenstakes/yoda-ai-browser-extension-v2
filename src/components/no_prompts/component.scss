@@ -1,0 +1,23 @@
+@import "../../index.scss";
+
+
+.no_prompts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+
+    background-color: #f3efef;
+
+    margin: 1rem;
+    padding: 1rem;
+
+    border-radius: $CARD_BORDER_RADIUS;
+}
+
+.no_prompts_text {
+
+    text-align: center;
+    max-width: 300px;
+}
