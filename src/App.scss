@@ -1,0 +1,57 @@
+
+.App {
+  position: relative;
+  text-align: center;
+  width: 400px;
+  height: 720px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.prompt_input {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+
+  width: calc(100% - 1rem);
+  width: 95%;
+  max-width: 400px;
+
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 10px;
+  /* margin: 0 1rem; */
+  margin: 0 auto;
+}
+
+.prompt_input_input {
+  border: none;
+  outline: none;
+  padding: 1rem;
+
+  flex: 1;
+}
+
+.prompt_input__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.prompts_list {
+  padding-top: 8vh;
+}
+
+.prompts_list_pad {
+  height: 200px;
+}
