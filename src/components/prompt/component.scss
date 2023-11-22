@@ -1,0 +1,52 @@
+@import "../../index.scss";
+
+
+.prompt_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+
+    margin-bottom: 2rem;
+    padding: 0 .5rem;
+
+    font-size: .96rem;
+}
+
+.prompt_card__prompt {
+    padding: .8rem .5rem;
+    border-radius: 10px;
+    border-bottom-right-radius: 2px;
+
+    background-color: $PROMPT_CARD_BG;
+    width: 80%;
+    min-height: 24px;
+
+    align-self: flex-start;
+    text-align: start;
+}
+
+
+.prompt_card__reply {
+    padding: .8rem .5rem;
+    border-radius: 10px;
+    border-bottom-left-radius: 2px;
+
+    background-color: $PROMPT_REPLY_CARD_BG;
+    width: 80%;
+    min-height: 24px;
+
+    align-self: flex-end;
+    text-align: start;
+}
+
+.prompt_card__reply_icon_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: .8rem;
+
+    font-size: .96rem;
+
+    color: $LIGHT_BLACK;
+}
